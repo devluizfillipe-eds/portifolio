@@ -14,8 +14,8 @@ import Contact from './components/contact';
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: 'Personal Portfolio - Saulo Nardin Rocha',
-    template: 'Portfolio - Saulo Nardin Rocha',
+    default: 'Personal Portfolio - Luiz Fillipe Barbosa Costa',
+    template: 'Portfolio - Luiz Fillipe Barbosa Costa',
   },
   description: 'This is my personal portfolio.',
   openGraph: {
