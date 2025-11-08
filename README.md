@@ -1,0 +1,22 @@
+# Portfolio
+
+This is a porfolio includes:
+
+- MDX and Markdown support
+- Optimized for SEO (sitemap, robots, JSON-LD schema)
+- RSS Feed
+- Dynamic OG images
+- Syntax highlighting
+- Tailwind v4
+- Vercel Speed Insights / Web Analytics
+- Geist font
+
+### Dev mode
+
+Run Next.js in development mode:
+
+```bash
+pnpm dev
+```
+# portifolio
+# portifolio
