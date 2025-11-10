@@ -4,24 +4,17 @@ import { useForm, ValidationError } from '@formspree/react';
 import Image from 'next/image';
 
 export default function Contact() {
-  // Updated to use your Formspree form ID (from https://formspree.io/f/mldarlll)
   const [state, handleSubmit] = useForm('mldarlll');
-
-  // Não retornamos cedo aqui para manter todo o container da seção `contact` visível.
-  // Em vez disso, renderizamos condicionalmente o formulário ou a mensagem de sucesso
-  // dentro do mesmo layout.
-
   return (
     <div className="isolate py-24 px-6 sm:py-32 lg:px-8" id="contact">
       <div className="mx-auto max-w-4xl lg:flex lg:items-center lg:gap-8">
         <div className="flex-shrink-0 mx-auto lg:mx-0">
-          {/* Use next/image to serve the profile image from public/assets */}
           <Image
             src="/assets/perfilsemfundo.png"
             alt="Your Name"
             width={160}
             height={160}
-            className="h-40 w-40 rounded-full object-cover ring-4 shadow-lg ring-white"
+            className="mx-auto h-40 w-40 rounded-full object-cover ring-4 shadow-lg ring-white"
           />
         </div>
 

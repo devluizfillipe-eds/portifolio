@@ -39,39 +39,34 @@ export default function Page() {
 
           <div className="items-end xl:col-start-3 xl:row-start-1 xl:mx-auto xl:grid xl:h-full xl:w-full xl:max-w-7xl xl:justify-end xl:gap-x-8 xl:px-8">
             <div className="text-center xl:text-left">
-              <div className="flex flex-col items-center gap-4 xl:items-start">
+              <div className="flex flex-col items-center gap-2 xl:items-start">
                 <Image
                   src="/assets/perfilsemfundo.png"
                   alt="Profile"
-                  width={160}
-                  height={160}
+                  width={176}
+                  height={176}
                   className="rounded-full object-cover ring-2 shadow-md ring-white"
                 />
                 <div className="xl:max-w-48">
-                  <h2 className="mt-2 text-7xl font-bold tracking-tight text-gray-900 sm:text-4xl xl:text-right">
+                  <h2 className="text-5xl font-bold tracking-tight text-gray-900 sm:text-4xl xl:text-right">
                     SOFTWARE ENGINEER
                   </h2>
                 </div>
-                <div className="flex items-center justify-center xl:justify-end">
+                <div className="flex items-center justify-center xl:justify-end mt-1">
                   <a
                     href="/assets/cv.pdf"
                     target="_blank"
-                    className="flex items-center justify-center border-b border-indigo-600 leading-8 text-indigo-600"
+                    className="flex items-center justify-center gap-1 border-b border-indigo-600 leading-7 text-indigo-600 text-base"
                   >
-                    <span>Donwload CV</span>
+                    <span>Download CV</span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
-                      // stroke-width="1.5"
-                      stroke="blue"
-                      className="size-5 text-indigo-600"
+                      stroke="currentColor"
+                      className="h-5 w-5 text-indigo-600"
                     >
-                      <path
-                        // stroke-linecap="round"
-                        // stroke-linejoin="round"
-                        d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"
-                      />
+                      <path d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
                     </svg>
                   </a>
                 </div>

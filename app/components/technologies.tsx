@@ -6,14 +6,14 @@ export default function Technologies() {
           <h3 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
             MY TECHNOLOGIES
           </h3>
-          <p className="mt-6 text-xl leading-8 text-gray-700">Over 11 of experience</p>
+          <p className="mt-6 text-xl leading-8 text-gray-700">Over 11 known tenologies</p>
         </div>
 
-        <div className="mx-auto grid max-w-none grid-cols-3 items-center gap-x-8 gap-y-10 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5 xl:grid-cols-6">
+  <div className="mx-auto grid max-w-none grid-cols-3 items-center gap-x-6 gap-y-8 sm:gap-x-8 sm:gap-y-10 lg:mx-0 lg:max-w-none lg:grid-cols-5 xl:grid-cols-6">
           {/* 1. Node.js */}
-          <div className="flex items-center justify-center gap-x-2">
-            <div className="h-8 w-8">
-              <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+          <div className="flex flex-col items-center justify-center gap-2">
+            <div className="h-10 w-10 sm:h-12 sm:w-12 shrink-0 flex items-center justify-center">
+              <svg className="h-full w-full" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
                 <polygon points="64 6 118 34 118 94 64 122 10 94 10 34" fill="#3C873A" />
                 <text
                   x="64"
@@ -32,9 +32,9 @@ export default function Technologies() {
           </div>
 
           {/* 2. TypeScript */}
-          <div className="flex items-center justify-center gap-x-2">
-            <div className="h-8 w-8">
-              <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+          <div className="flex flex-col items-center justify-center gap-2">
+            <div className="h-10 w-10 sm:h-12 sm:w-12 shrink-0 flex items-center justify-center">
+              <svg className="h-full w-full" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
                 <rect width="128" height="128" rx="16" fill="#3178C6" />
                 <text
                   x="64"
@@ -53,9 +53,9 @@ export default function Technologies() {
           </div>
 
           {/* 3. React */}
-          <div className="flex items-center justify-center gap-x-2">
-            <div className="h-8 w-8">
-              <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+          <div className="flex flex-col items-center justify-center gap-2">
+            <div className="h-10 w-10 sm:h-12 sm:w-12 shrink-0 flex items-center justify-center">
+              <svg className="h-full w-full" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
                 <g fill="none" stroke="#61DAFB" strokeWidth="6" strokeLinecap="round">
                   <ellipse cx="64" cy="64" rx="36" ry="12" transform="rotate(0 64 64)" />
                   <ellipse cx="64" cy="64" rx="36" ry="12" transform="rotate(60 64 64)" />
@@ -68,9 +68,9 @@ export default function Technologies() {
           </div>
 
           {/* 4. Next.js */}
-          <div className="flex items-center justify-center gap-x-2">
-            <div className="h-8 w-8">
-              <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+          <div className="flex flex-col items-center justify-center gap-2">
+            <div className="h-10 w-10 sm:h-12 sm:w-12 shrink-0 flex items-center justify-center">
+              <svg className="h-full w-full" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
                 <rect width="128" height="128" rx="16" fill="#000" />
                 <text
                   x="64"
@@ -89,9 +89,9 @@ export default function Technologies() {
           </div>
 
           {/* 5. Tailwind CSS */}
-          <div className="flex items-center justify-center gap-x-2">
-            <div className="h-8 w-8">
-              <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+          <div className="flex flex-col items-center justify-center gap-2">
+            <div className="h-10 w-10 sm:h-12 sm:w-12 shrink-0 flex items-center justify-center">
+              <svg className="h-full w-full" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
                 <rect width="128" height="128" rx="16" fill="#06B6D4" />
                 <path d="M24 72c20 0 28-16 56-16 0 28-20 40-56 40" fill="#075985" opacity="0.95" />
               </svg>
@@ -100,9 +100,9 @@ export default function Technologies() {
           </div>
 
           {/* 6. NestJS */}
-          <div className="flex items-center justify-center gap-x-2">
-            <div className="h-8 w-8">
-              <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+          <div className="flex flex-col items-center justify-center gap-2">
+            <div className="h-10 w-10 sm:h-12 sm:w-12 shrink-0 flex items-center justify-center">
+              <svg className="h-full w-full" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
                 <circle cx="64" cy="64" r="56" fill="#E0234E" />
                 <text
                   x="64"
@@ -121,9 +121,9 @@ export default function Technologies() {
           </div>
 
           {/* 7. API REST */}
-          <div className="flex items-center justify-center gap-x-2">
-            <div className="h-8 w-8">
-              <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+          <div className="flex flex-col items-center justify-center gap-2">
+            <div className="h-10 w-10 sm:h-12 sm:w-12 shrink-0 flex items-center justify-center">
+              <svg className="h-full w-full" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
                 <rect x="16" y="28" width="96" height="72" rx="8" fill="#111827" />
                 <circle cx="40" cy="64" r="8" fill="#fff" />
                 <rect x="60" y="56" width="44" height="16" rx="4" fill="#fff" />
@@ -133,9 +133,9 @@ export default function Technologies() {
           </div>
 
           {/* 8. Supabase */}
-          <div className="flex items-center justify-center gap-x-2">
-            <div className="h-8 w-8">
-              <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+          <div className="flex flex-col items-center justify-center gap-2">
+            <div className="h-10 w-10 sm:h-12 sm:w-12 shrink-0 flex items-center justify-center">
+              <svg className="h-full w-full" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
                 <rect width="128" height="128" rx="16" fill="#3A9A5F" />
                 <path d="M32 48h64v32H32z" fill="#fff" opacity="0.9" />
               </svg>
@@ -144,9 +144,9 @@ export default function Technologies() {
           </div>
 
           {/* 9. Vercel */}
-          <div className="flex items-center justify-center gap-x-2">
-            <div className="h-8 w-8">
-              <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+          <div className="flex flex-col items-center justify-center gap-2">
+            <div className="h-10 w-10 sm:h-12 sm:w-12 shrink-0 flex items-center justify-center">
+              <svg className="h-full w-full" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
                 <polygon points="64 16 112 112 16 112" fill="#000" />
               </svg>
             </div>
@@ -154,9 +154,9 @@ export default function Technologies() {
           </div>
 
           {/* 10. GitHub */}
-          <div className="flex items-center justify-center gap-x-2">
-            <div className="h-8 w-8">
-              <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+          <div className="flex flex-col items-center justify-center gap-2">
+            <div className="h-10 w-10 sm:h-12 sm:w-12 shrink-0 flex items-center justify-center">
+              <svg className="h-full w-full" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
                 <rect width="128" height="128" rx="16" fill="#24292F" />
                 <path
                   fill="#fff"
@@ -168,13 +168,29 @@ export default function Technologies() {
           </div>
 
           {/* 11. Linux */}
-          <div className="flex items-center justify-center gap-x-2">
-            <div className="h-8 w-8">
-              <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="64" cy="64" r="56" fill="#000" />
-                <ellipse cx="64" cy="74" rx="28" ry="22" fill="#fff" />
-                <circle cx="50" cy="60" r="6" fill="#000" />
-                <circle cx="78" cy="60" r="6" fill="#000" />
+          <div className="flex flex-col items-center justify-center gap-2">
+            <div className="h-10 w-10 sm:h-12 sm:w-12 shrink-0 flex items-center justify-center">
+              <svg className="h-full w-full" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Linux">
+                {/* Tux simplified */}
+                {/* Body */}
+                <ellipse cx="64" cy="76" rx="34" ry="40" fill="#000" />
+                {/* Belly */}
+                <ellipse cx="64" cy="84" rx="26" ry="30" fill="#fff" />
+                {/* Head */}
+                <circle cx="64" cy="36" r="18" fill="#000" />
+                {/* Eyes */}
+                <circle cx="58" cy="34" r="5" fill="#fff" />
+                <circle cx="70" cy="34" r="5" fill="#fff" />
+                <circle cx="60" cy="35" r="2.2" fill="#000" />
+                <circle cx="72" cy="35" r="2.2" fill="#000" />
+                {/* Beak */}
+                <path d="M58 44c3 3 9 3 12 0 1-1 1-3 0-4-5-2-7-2-12 0-1 1-1 3 0 4z" fill="#F2C500" />
+                {/* Feet */}
+                <ellipse cx="48" cy="106" rx="14" ry="9" fill="#F2C500" />
+                <ellipse cx="80" cy="106" rx="14" ry="9" fill="#F2C500" />
+                {/* Outline highlights */}
+                <path d="M48 64c2 6 2 10 0 16" stroke="#fff" strokeWidth="2" fill="none" opacity=".8" />
+                <path d="M80 64c-2 6-2 10 0 16" stroke="#fff" strokeWidth="2" fill="none" opacity=".8" />
               </svg>
             </div>
             <div className="text-gray-800">Linux</div>
