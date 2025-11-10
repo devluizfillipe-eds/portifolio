@@ -14,30 +14,30 @@ export default function Contact() {
       </div>
 
       {/* Photo + Info Side-by-Side (stack on mobile) */}
-      <div className="mt-10 mx-auto max-w-4xl flex flex-col items-center gap-8 lg:flex-row lg:items-center lg:justify-center">
+      <div className="mt-1 mx-auto max-w-5xl flex flex-col items-center gap-2 lg:flex-row lg:items-center lg:justify-center lg:gap-4">
         <Image
           src="/assets/perfilsemfundo.png"
           alt="Your Name"
-          width={180}
-          height={180}
-          className="h-44 w-44 rounded-full object-cover ring-4 shadow-lg ring-white"
+          width={256}
+          height={256}
+          className="h-44 w-44 lg:h-64 lg:w-64 rounded-full object-cover ring-4 shadow-lg ring-white"
         />
-        <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
-          <p className="text-lg leading-8 text-gray-600">
+        <div className="flex flex-col items-center text-center lg:items-start lg:text-left lg:max-w-xl">
+          <p className="text-lg leading-6 text-gray-600 lg:text-xl lg:leading-7">
             <span className="block font-medium text-gray-800">Belo Horizonte, Brazil</span>
-            <span className="block mt-2">
+            <span className="block mt-1">
               <span className="font-medium text-gray-800">Mobile:</span>{' '}
               <a href="tel:+5531995567789" className="text-indigo-600 underline">
                 +55 (31) 99556-7789
               </a>
             </span>
-            <span className="block mt-2">
+            <span className="block mt-1">
               <span className="font-medium text-gray-800">Email:</span>{' '}
               <a href="mailto:devluizfillpe@gmail.com" className="text-indigo-600 underline">
                 devluizfillipe@gmail.com
               </a>
             </span>
-            <span className="block mt-2">
+            <span className="block mt-1">
               <span className="font-medium text-gray-800">LinkedIn:</span>{' '}
               <a
                 href="https://www.linkedin.com/in/luizfillipedev/"
@@ -49,7 +49,7 @@ export default function Contact() {
               </a>
             </span>
           </p>
-          <div className="mt-6 flex justify-center gap-3 lg:justify-start">
+          <div className="mt-2 flex justify-center gap-3 lg:justify-start lg:mt-3">
             <a
               href="/assets/cv.pdf"
               className="inline-flex items-center rounded-md bg-gray-100 py-2 px-3 text-sm font-medium text-gray-900 shadow-sm hover:bg-gray-200"

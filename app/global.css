@@ -148,3 +148,12 @@ table {
 .title {
   text-wrap: balance;
 }
+
+/* Limit paragraph to a maximum number of lines */
+.line-clamp-9 {
+  display: -webkit-box;
+  line-clamp: 9;
+  -webkit-line-clamp: 9;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
