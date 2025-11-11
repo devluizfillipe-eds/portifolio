@@ -7,8 +7,8 @@ export default function Page() {
   return (
     <motion.div animate={{ opacity: 1 }} initial={{ opacity: 0 }}>
     <div className="relative isolate overflow-hidden py-10 sm:py-12 lg:overflow-visible">
-  <div className="mx-auto grid max-w-2xl grid-cols-1 justify-center gap-x-8 gap-y-8 px-6 align-middle sm:px-8 lg:max-w-5xl lg:px-8 xl:max-w-7xl xl:grid-cols-[1.15fr_0.9fr_0.9fr] xl:items-start xl:gap-y-10 xl:gap-x-3">
-      <div className="xl:col-span-2 xl:col-start-1 xl:row-start-1 xl:mx-auto xl:grid xl:w-full xl:max-w-7xl xl:grid-cols-[0.9fr_1fr] xl:gap-x-3 xl:px-4">
+  <div className="mx-auto grid max-w-2xl grid-cols-1 justify-center gap-x-8 gap-y-8 px-6 align-middle sm:px-8 lg:max-w-5xl lg:px-8 xl:max-w-7xl xl:grid-cols-[1.15fr_0.9fr_0.9fr] xl:items-start xl:gap-y-10 xl:gap-x-2">
+      <div className="xl:col-span-2 xl:col-start-1 xl:row-start-1 xl:mx-auto xl:grid xl:w-full xl:max-w-7xl xl:grid-cols-[0.9fr_1fr] xl:gap-x-2 xl:px-0">
             <div className="xl:w-[700px] xl:pr-0">
               <p className="text-base font-semibold leading-7 text-indigo-600">Hi, there</p>
               <h1 className="mt-2 text-7xl font-bold tracking-tight text-gray-900 sm:text-9xl">
@@ -37,7 +37,7 @@ export default function Page() {
 
           {/* Large image removed - profile will appear above SOFTWARE ENGINEER */}
 
-          <div className="items-start xl:col-start-3 xl:row-start-1 xl:mx-auto xl:grid xl:h-full xl:w-full xl:max-w-7xl xl:justify-start xl:gap-x-3 xl:px-3">
+          <div className="items-start xl:col-start-3 xl:row-start-1 xl:mx-auto xl:grid xl:h-full xl:w-full xl:max-w-7xl xl:justify-start xl:gap-x-2 xl:px-2">
             <div className="text-center">
               <div className="flex flex-col items-center gap-2 xl:items-center xl:mt-1">
                 <Image
