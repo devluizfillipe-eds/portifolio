@@ -6,17 +6,17 @@ import Image from 'next/image';
 export default function Page() {
   return (
     <motion.div animate={{ opacity: 1 }} initial={{ opacity: 0 }}>
-    <div className="relative isolate overflow-hidden py-10 sm:py-12 lg:overflow-visible">
-  <div className="mx-auto grid max-w-2xl grid-cols-1 justify-center gap-x-8 gap-y-8 px-6 align-middle sm:px-8 lg:max-w-5xl lg:px-8 xl:max-w-7xl xl:grid-cols-[1.15fr_0.9fr_0.9fr] xl:items-start xl:gap-y-10 xl:gap-x-2">
-      <div className="xl:col-span-2 xl:col-start-1 xl:row-start-1 xl:mx-auto xl:grid xl:w-full xl:max-w-7xl xl:grid-cols-[0.9fr_1fr] xl:gap-x-2 xl:px-0">
+      <div className="relative isolate overflow-hidden py-10 sm:py-12 lg:overflow-visible">
+        <div className="mx-auto grid max-w-2xl grid-cols-1 justify-center gap-x-8 gap-y-8 px-6 align-middle sm:px-8 lg:max-w-5xl lg:px-8 xl:max-w-7xl xl:grid-cols-[1.15fr_0.9fr_0.9fr] xl:items-start xl:gap-x-2 xl:gap-y-10">
+          <div className="xl:col-span-2 xl:col-start-1 xl:row-start-1 xl:mx-auto xl:grid xl:w-full xl:max-w-7xl xl:grid-cols-[0.9fr_1fr] xl:gap-x-2 xl:px-0">
             <div className="xl:w-[700px] xl:pr-0">
               <p className="text-base font-semibold leading-7 text-indigo-600">Hi, there</p>
               <h1 className="mt-2 text-7xl font-bold tracking-tight text-gray-900 sm:text-9xl">
                 I'M Luiz
               </h1>
-              <p className="mt-6 text-gray-700 xl:text-lg xl:leading-relaxed line-clamp-9">
+              <p className="mt-6 line-clamp-9 text-gray-700 xl:text-lg xl:leading-relaxed">
                 I am a Software Engineering student at Centro Universitário Una Contagem, currently
-                in my second semester, focusing on web development. I work as a freelancer, having
+                in my second semester, focusing on web development.I work as a freelancer, having
                 developed responsive web applications, including a complete web app for a barbershop
                 using React, Node.js, and TypeScript. My core values are discipline, clear
                 communication, and natural leadership. I am constantly seeking to improve my
@@ -39,24 +39,24 @@ export default function Page() {
 
           <div className="items-start xl:col-start-3 xl:row-start-1 xl:mx-auto xl:grid xl:h-full xl:w-full xl:max-w-7xl xl:justify-start xl:gap-x-2 xl:px-2">
             <div className="text-center">
-              <div className="flex flex-col items-center gap-2 xl:items-center xl:mt-1">
+              <div className="flex flex-col items-center gap-2 xl:mt-1 xl:items-center">
                 <Image
                   src="/assets/perfilsemfundo.png"
                   alt="Profile"
                   width={256}
                   height={256}
-                  className="h-44 w-44 xl:h-64 xl:w-64 rounded-full object-cover ring-2 shadow-md ring-white"
+                  className="h-44 w-44 rounded-full object-cover ring-2 shadow-md ring-white xl:h-64 xl:w-64"
                 />
-                <div className="xl:max-w-48 w-full">
-                  <h2 className="text-5xl font-bold tracking-tight text-gray-900 sm:text-4xl text-center">
+                <div className="w-full xl:max-w-48">
+                  <h2 className="text-center text-5xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                     SOFTWARE ENGINEER
                   </h2>
                 </div>
-                <div className="flex items-center justify-center mt-1">
+                <div className="mt-1 flex items-center justify-center">
                   <a
                     href="/assets/cv.pdf"
                     target="_blank"
-                    className="flex items-center justify-center gap-1 border-b border-indigo-600 leading-7 text-indigo-600 text-base"
+                    className="flex items-center justify-center gap-1 border-b border-indigo-600 text-base leading-7 text-indigo-600"
                   >
                     <span>Download CV</span>
                     <svg
