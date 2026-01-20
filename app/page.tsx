@@ -16,7 +16,7 @@ export default function Page() {
               </h1>
               <p className="mt-6 line-clamp-9 text-gray-700 xl:text-lg xl:leading-relaxed">
                 I am a Software Engineering student at Centro Universitário Una Contagem, currently
-                in my second semester, focusing on web development.I work as a freelancer, having
+                in my third semester, focusing on web development.I work as a freelancer, having
                 developed responsive web applications, including a complete web app for a barbershop
                 using React, Node.js, and TypeScript. My core values are discipline, clear
                 communication, and natural leadership. I am constantly seeking to improve my
