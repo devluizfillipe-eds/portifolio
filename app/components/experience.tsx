@@ -37,6 +37,22 @@ const stats = [
       'Optimized performance with advanced techniques.',
     ],
   },
+  {
+    id: 3,
+    company: 'Junior Gás',
+    year: '03/2025',
+    role: 'Freelancer Full Stack Developer',
+    tech: 'Next.js, TypeScript, Tailwind CSS, PostgreSQL, API REST',
+    location: 'Remote',
+    brief:
+      'a complete one-page, mobile-first e-commerce with serverless architecture, integrating modern frontend, order management, checkout with payment and administrative panel.',
+    highlights: [
+      'Developed a one-page SPA using Next.js (App Router) and TypeScript, styled with TailwindCSS and smooth scroll navigation.',
+      'Implemented a serverless backend with Supabase (PostgreSQL, Auth, and APIs) for data persistence and order management.',
+      'Built a checkout flow with payment gateway integration and order creation/update logic.',
+      'Created an admin panel with authentication, order listing, and optimized print functionality.',
+    ],
+  },
 ];
 
 export default function Experience() {
