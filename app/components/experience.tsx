@@ -4,6 +4,66 @@ import { CheckIcon, ChevronDownIcon } from '@heroicons/react/20/solid';
 const stats = [
   {
     id: 1,
+    company: 'GV Vidros',
+    year: '09/2026',
+    role: 'Full Stack Developer',
+    tech: 'TypeScript, React, Vite, Supabase Edge Functions, PostgreSQL',
+    location: 'Remote',
+    brief:
+      'Developed a financial system fully integrated with the logistics system, covering complete financial and fiscal control.',
+    highlights: [
+      'Built the frontend with React, TypeScript, and Vite for a fast, modern experience.',
+      'Implemented full financial and fiscal control integrated with the logistics platform.',
+      'Used Supabase Edge Functions to emulate the backend and PostgreSQL for data persistence.',
+    ],
+  },
+  {
+    id: 2,
+    company: 'GV Vidros',
+    year: '08/2026 – 09/2025',
+    role: 'Full Stack Developer',
+    tech: 'React, TypeScript, Supabase Edge Functions, Expo, Android, PostgreSQL',
+    location: 'Remote',
+    brief:
+      'Developed a logistics management system to organize service scheduling and employee control, along with a companion Android app for on-site service tracking.',
+    highlights: [
+      'Built the web logistics system with React and TypeScript for service and employee management.',
+      'Created an Android app with Expo so employees can track services in real time.',
+      'Emulated the backend with Supabase Edge Functions, removing the need for a dedicated server.',
+      'Modeled the relational data layer with PostgreSQL via Supabase.',
+    ],
+  },
+  {
+    id: 3,
+    company: 'Sacramento',
+    year: '9/2026',
+    role: 'Full Stack Developer',
+    tech: 'TypeScript, Next.js, Tailwind CSS',
+    location: 'Remote',
+    brief:
+      'Remastered the frontend of the Sacramento e-commerce using a modern stack, improving performance and user experience.',
+    highlights: [
+      'Rebuilt the storefront with Next.js and TypeScript.',
+      'Improved responsiveness, accessibility, and overall page performance.',
+    ],
+  },
+  {
+    id: 4,
+    company: 'Sacramento',
+    year: '8/2026',
+    role: 'Digital Security / Full Stack Developer',
+    tech: 'Security Hardening, Next.js, TypeScript',
+    location: 'Remote',
+    brief:
+      'Refactored the entire security layer of a previously compromised e-commerce platform.',
+    highlights: [
+      'Conducted a security review of the hacked e-commerce application.',
+      'Hardened the platform against common web vulnerabilities.',
+      'Rebuilt authentication and data protection mechanisms.',
+    ],
+  },
+  {
+    id: 5,
     company: "Barbearia Bozo's Babeiros",
     year: '09/2025',
     role: 'Full Stack Developer',
@@ -22,7 +82,7 @@ const stats = [
     ],
   },
   {
-    id: 2,
+    id: 6,
     company: 'Vivo',
     year: '07/2025',
     role: 'Freelancer Frontend Developer',
@@ -38,9 +98,9 @@ const stats = [
     ],
   },
   {
-    id: 3,
+    id: 7,
     company: 'Junior Gás',
-    year: '03/2025',
+    year: '03/2025 - 05/2026',
     role: 'Freelancer Full Stack Developer',
     tech: 'Next.js, TypeScript, Tailwind CSS, PostgreSQL, API REST',
     location: 'Remote',
